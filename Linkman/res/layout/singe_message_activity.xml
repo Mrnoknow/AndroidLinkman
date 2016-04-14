@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" android:layout_height="match_parent"
+ >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="@drawable/call"
+        >
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/textView"
+        android:textSize="35dp"
+        android:layout_gravity="bottom" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:layout_x="0dp"
+        android:layout_y="300dp" >
+
+        <Button
+            android:id="@+id/myButton2"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/call1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:background="@drawable/chat" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="编辑" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:text="删除" />
+
+    </LinearLayout>
+
+</RadioGroup>
